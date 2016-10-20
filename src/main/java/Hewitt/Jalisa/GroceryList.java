@@ -48,13 +48,13 @@ public class GroceryList {
         for(String objects: stringArrayOfListItems){
             matcher = p.matcher(objects);
             if (matcher.find()){
-//                groceryDeatils.add(matcher.group());
+//
             }
             if (matcher.find()){
                 groceryDeatils.add(matcher.group());
             }
             if (matcher.find()){
-//                groceryDeatils.add(matcher.group());
+//
             }
             if (matcher.find()){
                 groceryDeatils.add(matcher.group());
