@@ -43,7 +43,7 @@ public class GroceryListTest {
     @Test
     public void SecondSplitTest(){
         groceryList.Spliting();
-        groceryList.SplitNamesOff();
+        groceryList.SecondSplit();
         String expected = "name:Jalisa;";
         String actual = groceryList.getGroceryDeatils().get(0);
         assertEquals("Need to log only name", expected, actual);
@@ -52,7 +52,7 @@ public class GroceryListTest {
     @Test
     public void SecondSplitTest2(){
         groceryList.Spliting();
-        groceryList.SplitNamesOff();
+        groceryList.SecondSplit();
         String expected = "name:Anthony;";
         String actual = groceryList.getGroceryDeatils().get(1);
         assertEquals("Need to log only name", expected, actual);

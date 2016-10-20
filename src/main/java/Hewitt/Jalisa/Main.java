@@ -16,8 +16,11 @@ public class Main {
         String output = (new Main()).readRawDataToString();
         GroceryList g = new GroceryList(output);
         g.Spliting();
-        g.SplitNamesOff();
-        g.printGroceryDetails();
+        g.SecondSplit();
+        g.createObject();
+        g.addPricestoCoresspondingName();
+        g.printedFormat();
+
 
     }
 
